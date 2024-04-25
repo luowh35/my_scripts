@@ -1,0 +1,56 @@
+the Scripts file contain scripts in dealing with the data.
+
+Usage:
+ASEphonon.py
+The code that calculate the phonon using Deep Potential
+------------------------------------------------------------------
+auto-test.sh
+auto test the dp's iteration, put the file in the iter******
+------------------------------------------------------------------
+conver_outcar.sh
+convert the outcar to the mtp train.cfg
+------------------------------------------------------------------
+distribution_fmax.sh
+calculate the distribution
+------------------------------------------------------------------
+dlmanystru.py
+download the unitcell in materials project
+------------------------------------------------------------------
+grep_energy.sh
+grep the energy in the OUTCAR in VASP
+------------------------------------------------------------------
+k-slx.sh
+self convergence test
+------------------------------------------------------------------
+learn_rate.py
+plot the loss function
+------------------------------------------------------------------
+lmp_dp.sh
+source the env of the dp
+------------------------------------------------------------------
+MaxdeForce.py
+plot the distribution
+------------------------------------------------------------------
+mtppbs.sh
+train the mtp
+------------------------------------------------------------------
+pbs.sh
+vasp sub_scripts
+------------------------------------------------------------------
+poscar2lammps.awk
+transform the poscar into the lmp.conf
+------------------------------------------------------------------
+predict.py
+predict the energy and force for a structure 
+------------------------------------------------------------------
+repeatcell.py
+download the supercell in MP
+------------------------------------------------------------------
+RMSEtest.py
+plot the dft and the dp predict energy
+------------------------------------------------------------------
+write_cfg.sh
+write the every plot in every frequncy
+
+
+
